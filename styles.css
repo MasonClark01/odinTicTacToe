@@ -1,15 +1,22 @@
 *{
     margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
-    background-color: rgba(255, 239, 119, 0.758);
+    background-color: #E76F51;
 }
 #header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(255, 233, 68, 0.758);
+    background-color: #264653;
+    color: #E76F51;
     padding: 16px;
+    font-size: 20px;
+}
+#header>h1{
+    font-weight: 500;
+    font-size: 40px;
 }
 #score{
     display: flex;
@@ -35,8 +42,8 @@ body{
 .boardSquare{
     min-width: 160px;
     min-height: 160px;
-    background-color: aquamarine;
-    border: 2px solid black;
+    background-color: #2A9D8F;
+    border: 2px solid #264653;
     display: flex;
     justify-content: center;
     align-items: center;
